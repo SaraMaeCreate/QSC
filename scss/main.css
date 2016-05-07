@@ -1,0 +1,164 @@
+/* CSS Document */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+#header {
+  height: 150px;
+  padding: 0;
+  margin-top: 2%; }
+
+#header p {
+  color: #0B4C8C;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px; }
+
+p {
+  text-align: center; }
+
+#nav1 {
+  padding: 5% 0 0 0;
+  margin-left: -5%;
+  margin-right: -5%;
+  border-bottom: solid 2px;
+  border-bottom-color: #6e6e6e;
+  text-align: center; }
+
+#nav1 a {
+  background-color: #878787;
+  color: white;
+  padding: 2px 16px 2px 16px;
+  font-size: 18px;
+  border-radius: 8%; }
+
+#nav1 li {
+  margin-left: 6%; }
+
+#nav1 a:hover {
+  background-color: #6e6e6e; }
+
+#nav2 a {
+  background-color: #878787;
+  color: white; }
+
+#nav2 a:hover {
+  background-color: #6e6e6e; }
+
+.navbar-header {
+  background-color: #0B4C8C; }
+
+.icon-bar {
+  background-color: white; }
+
+.dropdown-menu {
+  background-color: #878787; }
+
+#carousel1 {
+  padding: 0;
+  margin-top: 4%; }
+
+#main {
+  background-color: white;
+  height: 100%;
+  padding-left: 8%;
+  padding-right: 8%; }
+
+.well {
+  border: solid 3px;
+  border-color: #04192d;
+  padding: 0;
+  margin-top: 4%; }
+
+h1 {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  background-color: #04192d;
+  padding: 5px 0px 5px 8px; }
+
+h4 {
+  text-align: center;
+  color: #0B4C8C; }
+
+#left h4 {
+  text-align: left;
+  color: #0B4C8C;
+  font-weight: bold;
+  font-size: 20px; }
+
+#left ul {
+  list-style: none;
+  line-height: 30px;
+  color: #878787;
+  padding-left: 5%; }
+
+#left li a {
+  font-size: 18px;
+  color: #878787;
+  padding-bottom: 3%; }
+
+#left li {
+  border-bottom: solid 1px;
+  border-bottom-color: #bababa; }
+
+#left li a:hover {
+  text-decoration: none;
+  color: #545454; }
+
+#left img {
+  margin-top: 4%;
+  margin-bottom: 2%; }
+
+#paras {
+  margin-top: 4%; }
+
+#paras p {
+  text-align: left; }
+
+#paras form {
+  margin: 2% 4% 2% 4%; }
+
+#volunteer {
+  margin-top: 4%; }
+
+#about p {
+  padding: 2% 4% 2% 4%;
+  text-align: left; }
+
+#adoption {
+  margin-left: 5%;
+  margin-right: 5%; }
+
+body {
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#0B4C8C, #878787);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0B4C8C, #878787);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0B4C8C, #878787);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0B4C8C, #878787);
+  /* Standard syntax */
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.thumbnail {
+  border: none;
+  background-color: transparent; }
+
+#footer {
+  height: 90px;
+  background-image: url(../img/footer_bottom_lab.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0; }
+
+#footer p {
+  color: black;
+  padding-top: 3%;
+  text-align: center;
+  font-size: 12px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,132 @@
+#gallery p {
+	margin: 0px 0px 1em 0px;
+}
+
+#gallery a {
+	outline: none;
+}
+
+
+#gallery {
+	width: 90%;
+	margin: auto;
+}
+
+.filter {
+	margin-top: 60px;
+	border-bottom: solid #878787 1px;
+}
+
+
+
+	.filter a {
+		color: #00273f;
+		font-size: 18px;
+		text-decoration: none;
+		padding: 3px 14px;
+	}
+
+	.filter a:hover {
+		color: #B9121B;
+		text-decoration: underline;
+	}
+
+	.filter a.selected {
+		color: #B9121B;
+		text-decoration: underline;
+	}
+
+.thumbnail_wrap {
+	position: relative;
+}
+
+a.thumbnail {
+	position: absolute;
+}
+
+a.thumbnail img {
+	width: 160px;
+	height: 160px;
+	padding: 2px;
+	box-shadow: 0px 0px 4px black;
+}
+
+	a.thumbnail img:hover {
+		box-shadow: 0px 0px 4px black;
+	}
+
+.clear_floats {
+	clear: both;
+	line-height: 1px;
+}
+
+/* Horizontal Media Queries */
+@media screen and (min-height: 50px) and (max-height: 500px) {
+	.title h1 {
+		font-size: 18px;
+	}
+	
+			a.thumbnail img {
+	width: 100px;
+	height: 100px;
+}
+}
+
+@media screen and (min-height: 501px) and (max-height: 700px) {
+	.title h1 {
+		font-size: 24px;
+	}
+}
+
+
+/* Vertical Media Queries */
+@media screen and (min-width: 50px) and (max-width: 500px) {
+	.title h1 {
+		font-size: 18px;
+	}
+
+	body {
+		padding: 0px 5px;
+	}
+
+	.gallery {
+		width: auto;
+	}
+
+	.filter span {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.filter a {
+		display: block;
+	}
+	
+			a.thumbnail img {
+	width: 100px;
+	height: 100px;
+}
+}
+
+@media screen and (min-width: 501px) and (max-width: 960px) {
+	.title h1 {
+		font-size: 24px;
+	}
+
+	.filter span {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.filter a {
+		display: block;
+		width: 35%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 961px) {
+	.filter span {
+		padding-right: 20px;
+	}
+}
